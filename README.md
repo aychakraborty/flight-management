@@ -1,4 +1,4 @@
-# Flight Management Java coding test
+# Flight Record Management System
 
 The exercise focuses on a theoretical implementation of a flight search service.
 
@@ -55,9 +55,3 @@ documentation.
 
 If you happen to run into any ambiguous requirements, feel free to decide on
 your own but please highlight your decision.
-
-## Bonus Exercise
-
-The current implementation
-of `com.qatarairways.adapter.flight.FlightAvailabilityRequest` is not ideal.
-Please add FIXME comment at the problematic part(s).
