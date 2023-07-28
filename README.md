@@ -1,4 +1,4 @@
-# Qatar Airways Java coding test
+# Flight Management Java coding test
 
 The exercise focuses on a theoretical implementation of a flight search service.
 
