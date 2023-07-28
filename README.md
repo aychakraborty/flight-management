@@ -55,3 +55,15 @@ documentation.
 
 If you happen to run into any ambiguous requirements, feel free to decide on
 your own but please highlight your decision.
+
+## Solution
+
+1. Create a payload model 'FlightAvailabilityRequest' that contains user's basic search criteria along with advanced (filter) criteria.
+2. Create 'FlightAvailabilityServiceImpl' incorporating FlightAvailabilityService interface.
+3. Use CRUD methodology to fetch all the flights based on the user criteria and have all the basic filter criterias in the query model so that boiler code is reduced in service layer.
+4. Use mapstruct to convert Entity data to DTO model for User's view.
+5. Place filter logic (not placed in query) in the FlightAvailabilityServiceImpl and filter out exact results based on user's search criteria.
+
+Endpoints:-
+
+GET /seachFlight - Serves as a single endpoint to serve customer request based on his/her search choices.
